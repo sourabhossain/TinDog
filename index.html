@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <title>TinDog</title>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
@@ -18,38 +18,38 @@
 <body>
 
   <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="http://" class="navbar-brand">tindog</a>
 
-    <!-- Nav Bar -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a href="http://" class="navbar-brand">tindog</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="http://" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="http://" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="http://" class="nav-link">Download</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="http://" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="http://" class="nav-link">Pricing</a></li>
+              <li class="nav-item"><a href="http://" class="nav-link">Download</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg"> <i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"> <i class="fab fa-google-play"></i> Download</button>
+        </div>
 
-      <div class="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup">
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
     </div>
 
@@ -155,7 +155,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  
+
 </body>
 
 </html>
