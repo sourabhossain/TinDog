@@ -3,18 +3,32 @@ body {
     font-size: 16px;
 }
 
+/* navigation bar */
+
 .navbar-brand {
+    font-size: 2.5rem;
     font-weight: bold;
-    font-size: 30px;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* title */
 
 #title {
     background: #ff4c68;
+    color: #ffffff;
 }
 
 .container-fluid {
@@ -23,7 +37,22 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: 800;
+}
+
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
 }
