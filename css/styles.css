@@ -56,3 +56,30 @@ h1 {
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
 }
+
+/* features */
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+
+}
