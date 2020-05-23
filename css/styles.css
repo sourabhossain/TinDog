@@ -117,9 +117,66 @@ p {
     color: #ff4c68;
 }
 
-.icon .fa {
-    text-align: center;
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
 }
 
-/* testimonials */
-#testimonials {}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
